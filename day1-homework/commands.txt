@@ -1,1 +1,3 @@
 fastqc SRR072893.fastq
+
+hisat2 -p 4 -x ../../data/genomes/BDGP6 -U SRR072893.fastq -S qn2.output
