@@ -1,3 +1,8 @@
 fastqc SRR072893.fastq
 
-hisat2 -p 4 -x ../../data/genomes/BDGP6 -U SRR072893.fastq -S qn2.output
+hisat2 -p 4 -x ../../data/genomes/BDGP6 -U SRR072893.fastq -S m14d.sam
+
+samtools sort m14d.sam > m14d.bam
+samtools index m14d.bam 
+## outputs to m14d.bam.bai
+
