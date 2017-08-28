@@ -6,3 +6,4 @@ samtools sort m14d.sam > m14d.bam
 samtools index m14d.bam 
 ## outputs to m14d.bam.bai
 
+stringtie m14d.bam -p 4 -e -G ../../data/genomes/BDGP6.Ensembl.81.gtf  -o m14d.gtf -B
