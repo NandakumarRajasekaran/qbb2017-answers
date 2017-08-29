@@ -1,9 +1,9 @@
 #!/usr/bin/env python
-
+""""""
 import sys
 
 f=open(sys.argv[1])
-o=open('index_gene.txt','w')
+o=open(sys.argv[2],'w')
 count=0
 for line in f:
     line=line.rstrip("\n\r")
@@ -11,7 +11,7 @@ for line in f:
         count+=1
         #The lines are in a specific format. Columns 41 to 46 correspond to AC no and 
         #columns 53 to 63 are FB numbers
-        o.write("%s\t %s\n"%(line[40:46:1],line[52:63:1]))
+        o.write("%s\t %s\n"%(line[52:63:1],line[40:46:1]))
     
 f.close()
 o.close()
