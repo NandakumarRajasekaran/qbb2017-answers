@@ -1,0 +1,1 @@
+ awk 'NR>5 {split($0,b,"\t");split(b[9],a,";");for (i in a){print a[i]} }' BDGP6.Ensembl.81.gtf | head -1000 > advanced4 

@@ -7,3 +7,19 @@ samtools index m14d.bam
 ## outputs to m14d.bam.bai
 
 stringtie m14d.bam -p 4 -e -G ../../data/genomes/BDGP6.Ensembl.81.gtf  -o m14d.gtf -B
+
+
+Advanced Exerccises:
+grep -v "^@" m14d.sam | cut -f 3 | sort | uniq -c> advanced1
+
+grep -v "^@" m14d.sam | cut -f "3 4" | sort | uniq -c| sort -r> advanced2
+
+grep "Sxl" SRR*/t_data.ctab  |awk '{sum+=$NF; sumsq+=($NF*$NF)}END{print sum/NR; print sqrt(sumsq/NR-((sum*sum)/(NR*NR)))}' > advanced3
+
+
+paste  SRR072*/t_data.ctab |awk 'NR>1{for (i=12;i<=NF;i+=12){if ($i<=1000){break}}
+if (i==NF+12)
+{print $2 "\t" $3 "\t" $4 "\t" $5 "\t" $6}}' > advanced4
+
+
+##For Q2 and Q4 used head to print only few lines
