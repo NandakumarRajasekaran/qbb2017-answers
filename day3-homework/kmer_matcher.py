@@ -14,7 +14,7 @@ k=int(sys.argv[3])
 
 
 kmer_dict={}
-o=open("indextable.txt",'w')
+#o=open("indextable.txt",'w')
 
 
 for ident, sequence in fasta.FASTAReader(target):

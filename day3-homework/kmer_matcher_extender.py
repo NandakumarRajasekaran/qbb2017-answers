@@ -85,7 +85,7 @@ print keylist
 for key in keylist:
     outlist=sorted(output[key],key=itemgetter(2))
     for item in outlist:
-        print key, item[2]
+        #print key, item[2]
         o.write("%s \t %s \t %s \t %s \n" % (key,item[0],item[1],item[2]))
              
              
