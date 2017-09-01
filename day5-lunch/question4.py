@@ -8,7 +8,7 @@ import sys
 import numpy as np
 import statsmodels.api as sm
 import pandas as pd
-from statsmodels.sandbox.regression.predstd import wls_prediction_std
+#from statsmodels.sandbox.regression.predstd import wls_prediction_std
 
 
 #df=pd.DataFrame()
