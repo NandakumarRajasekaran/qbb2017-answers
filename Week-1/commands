@@ -1,0 +1,3 @@
+./blastn -db nr -query week1_query.fa  -evalue 0.001 -remote -outfmt "6 qseqid sseqid qseq sseq evalue length" -out blastn_output.tsv -max_target_seqs 1001 
+
+
