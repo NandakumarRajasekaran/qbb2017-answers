@@ -48,7 +48,7 @@ plt.savefig('Z-score (dash as nonsyn).png')
 plt.close()
 
 plt.figure()
-plt.scatter(range(0,len(diff)),np.log2(nonsyn_all/(syn_all+1))) #To not divide by zero, add 1 to the denominator
+plt.scatter(range(0,len(diff)),np.log2((nonsyn_all+0.1)/(syn_all+1))) #To not divide by zero, add 1 to the denominator
 plt.scatter(redind,np.log2(nonsyn_all[redind]/(syn_all[redind]+1)),c='red')
 plt.title('dNdS Ratio')
 plt.xlabel('Codon Position')
