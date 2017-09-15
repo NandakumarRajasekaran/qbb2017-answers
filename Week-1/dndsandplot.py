@@ -29,7 +29,7 @@ allmut=np.logical_not(allmut)
 protcmp=np.equal(parr,parr[0,:])
 syn=np.logical_and(allmut,protcmp)
 nonsyn=np.logical_and(allmut,np.logical_not(protcmp))
-ind=np.where(parr[0,:]!='-')
+ind=np.where(parr[0,:]!='-')        #Consider only non-dash indices in query seq i.e. ignore the columns if dash is present in query sequence.
 syn_all=syn.sum(axis=0)
 syn_all=syn_all[ind]
 nonsyn_all=nonsyn.sum(axis=0)
