@@ -52,6 +52,6 @@ plt.scatter(range(0,len(diff)),np.log2(nonsyn_all/(syn_all+1))) #To not divide b
 plt.scatter(redind,np.log2(nonsyn_all[redind]/(syn_all[redind]+1)),c='red')
 plt.title('dNdS Ratio')
 plt.xlabel('Codon Position')
-plt.ylabel('dNdS Ratio')
-plt.savefig('dNdS Ratio (dash as nosyn).png')
+plt.ylabel('log2(dN/dS) Ratio')
+plt.savefig('dNdS Ratio (dash as nonsyn).png')
 plt.close()
