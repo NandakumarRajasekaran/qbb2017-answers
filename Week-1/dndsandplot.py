@@ -36,7 +36,7 @@ nonsyn_all=nonsyn.sum(axis=0)
 nonsyn_all=nonsyn_all[ind]
 diff=syn_all-nonsyn_all
 zscore=stats.zscore(diff)
-redind=np.where(zscore<=-2)
+redind=np.where(zscore<=-2.326) # one -tailed , 0.01 p value
 
 plt.figure()
 plt.scatter(range(0,len(diff)),stats.zscore(diff))
@@ -48,10 +48,10 @@ plt.savefig('Z-score (dash as nonsyn).png')
 plt.close()
 
 plt.figure()
-plt.scatter(range(0,len(diff)),nonsyn_all/(syn_all+1)) #To not divide by zero, add 1 to the denominator
-plt.scatter(redind,nonsyn_all[redind]/(syn_all[redind]+1),c='red')
+plt.scatter(range(0,len(diff)),np.log2(nonsyn_all/(syn_all+1))) #To not divide by zero, add 1 to the denominator
+plt.scatter(redind,np.log2(nonsyn_all[redind]/(syn_all[redind]+1)),c='red')
 plt.title('dNdS Ratio')
 plt.xlabel('Codon Position')
 plt.ylabel('dNdS Ratio')
-plt.savefig('dNdS Ratio (dash as nonsyn).png')
+plt.savefig('dNdS Ratio (dash as nosyn).png')
 plt.close()
