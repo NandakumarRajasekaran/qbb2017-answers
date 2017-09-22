@@ -9,3 +9,5 @@ i.e. If contig i starts at 1000 and ends at 2000, contig i+1 may start at 1950 i
 of 2001. This may have to do with +/- strands. 
 
 canu assembler takes a few minutes to run but gives better alignment
+
+low and high refer to coverage
