@@ -1,0 +1,29 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+CONTIG	NODE_1_length_6734_cov_0.400958	6734	unaligned
+8474	10000	6636	5116	gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides	NODE_2_length_6636_cov_0.532898	99.61		True
+CONTIG	NODE_2_length_6636_cov_0.532898	6636	correct_unaligned
+CONTIG	NODE_3_length_6166_cov_0.729668	6166	unaligned
+CONTIG	NODE_4_length_4945_cov_0.153783	4945	unaligned
+CONTIG	NODE_5_length_4038_cov_0.327642	4038	unaligned
+CONTIG	NODE_6_length_3700_cov_0.429355	3700	unaligned
+CONTIG	NODE_7_length_3337_cov_0.186167	3337	unaligned
+CONTIG	NODE_8_length_2662_cov_0.644802	2662	unaligned
+CONTIG	NODE_9_length_2547_cov_0.638443	2547	unaligned
+CONTIG	NODE_10_length_2295_cov_0.175893	2295	unaligned
+CONTIG	NODE_11_length_1962_cov_0.141059	1962	unaligned
+CONTIG	NODE_12_length_1839_cov_0.223655	1839	unaligned
+CONTIG	NODE_13_length_1639_cov_0.973485	1639	unaligned
+CONTIG	NODE_14_length_1626_cov_0.175048	1626	unaligned
+CONTIG	NODE_15_length_1583_cov_0.670812	1583	unaligned
+CONTIG	NODE_16_length_1409_cov_1.86411	1409	unaligned
+CONTIG	NODE_17_length_1401_cov_0.295691	1401	unaligned
+2418	3805	1387	1	gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides	NODE_18_length_1387_cov_0.257508	99.78		True
+CONTIG	NODE_18_length_1387_cov_0.257508	1387	correct
+CONTIG	NODE_19_length_1375_cov_0.485606	1375	unaligned
+5158	5601	1	444	gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides	NODE_20_length_1084_cov_1.08455	100.0		True
+CONTIG	NODE_20_length_1084_cov_1.08455	1084	correct_unaligned
+145	851	703	1	gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides	NODE_21_length_703_cov_0.817901	99.15		True
+CONTIG	NODE_21_length_703_cov_0.817901	703	correct
+CONTIG	NODE_22_length_694_cov_0.607199	694	unaligned
+CONTIG	NODE_23_length_689_cov_1.50315	689	unaligned
+CONTIG	NODE_24_length_532_cov_1.09853	532	unaligned

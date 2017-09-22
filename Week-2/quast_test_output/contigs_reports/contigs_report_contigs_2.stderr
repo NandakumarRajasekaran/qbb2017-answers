@@ -1,0 +1,11 @@
+Writing filtered delta file /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.filter
+Reading delta file /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.delta
+Writing plot files /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.fplot, /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.rplot
+Writing gnuplot script /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.gp
+Rendering plot /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.html
+uast_test_output/quast_corrected_input/contigs_2.fasta"
+# against subject-file "/Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.ntref"
+# COMPLETETIME /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummer /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.ntref 0.00
+# SPACE /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummer /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.ntref 0.02
+4: FINISHING DATA
+WARNING: there was a problem deleting the temporary output files

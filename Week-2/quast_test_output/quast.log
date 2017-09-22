@@ -1,0 +1,837 @@
+/usr/local/Cellar/quast/4.5/quast.py -t 4 velvet_low/contigs.fa velvet_high/contigs.fa spades_low/contigs.fasta spades_high/spades_high/contigs.fasta nonopore/nanopore_spades/contigs.fasta -R reference.fasta --test
+
+Version: 4.5, 15ca3b9
+
+System information:
+  OS: Darwin-16.7.0-x86_64-i386-64bit (macosx)
+  Python version: 2.7.10
+  CPUs number: 4
+
+Started: 2017-09-22 10:17:43
+
+Logging to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast.log
+
+CWD: /Users/cmdb/qbb2017-answers/Week-2
+Main parameters: 
+  Threads: 4, eukaryotic: true, minimum contig length: 500, ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /usr/local/Cellar/quast/4.5/test_data/reference.fasta.gz ==> reference
+
+Contigs:
+  Pre-processing...
+  1  velvet_low/contigs.fa ==> velvet_low_contigs
+  2  velvet_high/contigs.fa ==> velvet_high_contigs
+  3  spades_low/contigs.fasta ==> spades_low_contigs
+  4  spades_high/spades_high/contigs.fasta ==> spades_high_contigs
+  5  nonopore/nanopore_spades/contigs.fasta ==> nanopore_spades_contigs
+  6  /usr/local/Cellar/quast/4.5/test_data/contigs_1.fasta ==> contigs_1
+  7  /usr/local/Cellar/quast/4.5/test_data/contigs_2.fasta ==> contigs_2
+
+2017-09-22 10:17:44
+Running Basic statistics processor...
+  Reference genome:
+    reference.fasta, length = 10000, num fragments = 1, GC % = 52.07
+  Contig files: 
+    1  velvet_low_contigs
+    2  velvet_high_contigs
+    3  spades_low_contigs
+    4  spades_high_contigs
+    5  nanopore_spades_contigs
+    6  contigs_1
+    7  contigs_2
+  Calculating N50 and L50...
+    1  velvet_low_contigs, N50 = 715, L50 = 8, Total length = 13849, GC % = 50.81, # N's per 100 kbp =  0.00
+    2  velvet_high_contigs, N50 = 2859, L50 = 11, Total length = 95527, GC % = 52.58, # N's per 100 kbp =  0.00
+    3  spades_low_contigs, N50 = 718, L50 = 8, Total length = 15922, GC % = 51.21, # N's per 100 kbp =  0.00
+    4  spades_high_contigs, N50 = 100000, L50 = 1, Total length = 100000, GC % = 52.59, # N's per 100 kbp =  0.00
+    5  nanopore_spades_contigs, N50 = 3700, L50 = 6, Total length = 60983, GC % = 52.34, # N's per 100 kbp =  0.00
+    6  contigs_1, N50 = 3980, L50 = 1, Total length = 6710, GC % = 51.28, # N's per 100 kbp =  0.00
+    7  contigs_2, N50 = 3360, L50 = 1, Total length = 5460, GC % = 52.44, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/GC_content_plot.pdf
+  Drawing velvet_low_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/velvet_low_contigs_GC_content_plot.pdf
+  Drawing velvet_high_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/velvet_high_contigs_GC_content_plot.pdf
+  Drawing spades_low_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/spades_low_contigs_GC_content_plot.pdf
+  Drawing spades_high_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/spades_high_contigs_GC_content_plot.pdf
+  Drawing nanopore_spades_contigs GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/nanopore_spades_contigs_GC_content_plot.pdf
+  Drawing contigs_1 GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/contigs_1_GC_content_plot.pdf
+  Drawing contigs_2 GC content plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/contigs_2_GC_content_plot.pdf
+  Drawing Coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/coverage_histogram.pdf
+  Drawing velvet_low_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/velvet_low_contigs_coverage_histogram.pdf
+  Drawing velvet_high_contigs coverage histogram (bin size: 27x)...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/velvet_high_contigs_coverage_histogram.pdf
+  Drawing spades_low_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/spades_low_contigs_coverage_histogram.pdf
+  Drawing spades_high_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/spades_high_contigs_coverage_histogram.pdf
+  Drawing nanopore_spades_contigs coverage histogram (bin size: 1x)...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/basic_stats/nanopore_spades_contigs_coverage_histogram.pdf
+Done.
+
+2017-09-22 10:17:49
+Running Contig analyzer...
+Checking correctness of E-MEM compilation...
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_test_output/nucmer_output/test --emem -t 1 --emempath /usr/local/bin/e-mem \
+     /usr/local/Cellar/quast/4.5/test_data/contigs_1.fasta /usr/local/Cellar/quast/4.5/test_data/contigs_2.fasta \
+     >> /dev/null 2>> /dev/null
+     The tool returned non-zero. See ../../../../dev/null for stderr.
+Preinstalled E-MEM does not work properly.
+NOTICE: Previous try of E-MEM compilation was unsuccessful! For forced retrying, please remove /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/make.emem.failed and restart QUAST. Currently, QUAST will use Nucmer which is absolutely fine, albeit slower.
+NOTICE: Previous try of gnuplot compilation was unsuccessful! For forced retrying, please remove /usr/local/Cellar/quast/4.5/quast_libs/gnuplot/make.failed and restart QUAST. 
+  2  velvet_high_contigs
+  3  spades_low_contigs
+  1  velvet_low_contigs
+  2  Logging to files /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/contigs_report_velvet_high_contigs.stdout and contigs_report_velvet_high_contigs.stderr...
+  3  Logging to files /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/contigs_report_spades_low_contigs.stdout and contigs_report_spades_low_contigs.stderr...
+  2  Aligning contigs to the reference
+  4  spades_high_contigs
+  1  Logging to files /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/contigs_report_velvet_low_contigs.stdout and contigs_report_velvet_low_contigs.stderr...
+  3  Aligning contigs to the reference
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs quast_test_output/quast_corrected_input/reference.fasta \
+     quast_test_output/quast_corrected_input/velvet_high_contigs.fa >> quast_test_output/contigs_reports/contigs_report_velvet_high_contigs.stdout \
+     2>> quast_test_output/contigs_reports/contigs_report_velvet_high_contigs.stderr
+  1  Aligning contigs to the reference
+  4  Logging to files /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/contigs_report_spades_high_contigs.stdout and contigs_report_spades_high_contigs.stderr...
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_test_output/contigs_reports/nucmer_output/spades_low_contigs quast_test_output/quast_corrected_input/reference.fasta \
+     quast_test_output/quast_corrected_input/spades_low_contigs.fasta >> quast_test_output/contigs_reports/contigs_report_spades_low_contigs.stdout \
+     2>> quast_test_output/contigs_reports/contigs_report_spades_low_contigs.stderr
+  4  Aligning contigs to the reference
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs quast_test_output/quast_corrected_input/reference.fasta \
+     quast_test_output/quast_corrected_input/velvet_low_contigs.fa >> quast_test_output/contigs_reports/contigs_report_velvet_low_contigs.stdout \
+     2>> quast_test_output/contigs_reports/contigs_report_velvet_low_contigs.stderr
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_test_output/contigs_reports/nucmer_output/spades_high_contigs quast_test_output/quast_corrected_input/reference.fasta \
+     quast_test_output/quast_corrected_input/spades_high_contigs.fasta >> quast_test_output/contigs_reports/contigs_report_spades_high_contigs.stdout \
+     2>> quast_test_output/contigs_reports/contigs_report_spades_high_contigs.stderr
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.fdelta 2> \
+     quast_test_output/contigs_reports/contigs_report_velvet_low_contigs.stderr
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.fdelta 2> \
+     quast_test_output/contigs_reports/contigs_report_spades_low_contigs.stderr
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.fdelta \
+     2> quast_test_output/contigs_reports/contigs_report_velvet_high_contigs.stderr
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.fdelta \
+     2> quast_test_output/contigs_reports/contigs_report_spades_high_contigs.stderr
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs \
+     quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.delta > quast_test_output/contigs_reports/contigs_report_velvet_low_contigs.stdout \
+     2> quast_test_output/contigs_reports/contigs_report_velvet_low_contigs.stderr
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs \
+     quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.delta > quast_test_output/contigs_reports/contigs_report_velvet_high_contigs.stdout \
+     2> quast_test_output/contigs_reports/contigs_report_velvet_high_contigs.stderr
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_test_output/contigs_reports/nucmer_output/spades_low_contigs \
+     quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.delta > quast_test_output/contigs_reports/contigs_report_spades_low_contigs.stdout \
+     2> quast_test_output/contigs_reports/contigs_report_spades_low_contigs.stderr
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_test_output/contigs_reports/nucmer_output/spades_high_contigs \
+     quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.delta > quast_test_output/contigs_reports/contigs_report_spades_high_contigs.stdout \
+     2> quast_test_output/contigs_reports/contigs_report_spades_high_contigs.stderr
+NOTICE: 2   MUMmer plot cannot be created.
+
+NOTICE: 3   MUMmer plot cannot be created.
+
+NOTICE: 1   MUMmer plot cannot be created.
+
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.coords_tmp \
+     2> quast_test_output/contigs_reports/contigs_report_velvet_high_contigs.stderr
+NOTICE: 4   MUMmer plot cannot be created.
+
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.coords_tmp \
+     2> quast_test_output/contigs_reports/contigs_report_velvet_low_contigs.stderr
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.coords_tmp \
+     2> quast_test_output/contigs_reports/contigs_report_spades_low_contigs.stderr
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.coords_tmp \
+     2> quast_test_output/contigs_reports/contigs_report_spades_high_contigs.stderr
+  1  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.delta \
+     < quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.coords.headless \
+     > quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.all_snps \
+     2> quast_test_output/contigs_reports/contigs_report_velvet_low_contigs.stderr
+  2  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.delta \
+     < quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.coords.headless \
+     > quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.all_snps \
+     2> quast_test_output/contigs_reports/contigs_report_velvet_high_contigs.stderr
+  4  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.delta \
+     < quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.coords.headless \
+     > quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.all_snps \
+     2> quast_test_output/contigs_reports/contigs_report_spades_high_contigs.stderr
+  3  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.delta \
+     < quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.coords.headless \
+     > quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.all_snps \
+     2> quast_test_output/contigs_reports/contigs_report_spades_low_contigs.stderr
+  1  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.all_snps to reduce disk space usage...
+  3  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.all_snps.gz
+  5  nanopore_spades_contigs
+  5  Logging to files /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/contigs_report_nanopore_spades_contigs.stdout and contigs_report_nanopore_spades_contigs.stderr...
+  5  Aligning contigs to the reference
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs quast_test_output/quast_corrected_input/reference.fasta \
+     quast_test_output/quast_corrected_input/nanopore_spades_contigs.fasta >> quast_test_output/contigs_reports/contigs_report_nanopore_spades_contigs.stdout \
+     2>> quast_test_output/contigs_reports/contigs_report_nanopore_spades_contigs.stderr
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.all_snps.gz
+  6  contigs_1
+  6  Logging to files /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/contigs_report_contigs_1.stdout and contigs_report_contigs_1.stderr...
+  6  Aligning contigs to the reference
+  6  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_test_output/contigs_reports/nucmer_output/contigs_1 quast_test_output/quast_corrected_input/reference.fasta \
+     quast_test_output/quast_corrected_input/contigs_1.fasta >> quast_test_output/contigs_reports/contigs_report_contigs_1.stdout \
+     2>> quast_test_output/contigs_reports/contigs_report_contigs_1.stderr
+  4  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/spades_high_contigs.all_snps.gz
+  7  contigs_2
+  2  Analysis is finished.
+  7  Logging to files /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/contigs_report_contigs_2.stdout and contigs_report_contigs_2.stderr...
+
+  7  Aligning contigs to the reference
+  Gzipping /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.all_snps to reduce disk space usage...
+  7  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/nucmer -c 65 -l 65 --maxmatch -p \
+     quast_test_output/contigs_reports/nucmer_output/contigs_2 quast_test_output/quast_corrected_input/reference.fasta \
+     quast_test_output/quast_corrected_input/contigs_2.fasta >> quast_test_output/contigs_reports/contigs_report_contigs_2.stdout \
+     2>> quast_test_output/contigs_reports/contigs_report_contigs_2.stderr
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.all_snps.gz
+  6  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_test_output/contigs_reports/nucmer_output/contigs_1.delta \
+     > quast_test_output/contigs_reports/nucmer_output/contigs_1.fdelta 2> quast_test_output/contigs_reports/contigs_report_contigs_1.stderr
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.fdelta \
+     2> quast_test_output/contigs_reports/contigs_report_nanopore_spades_contigs.stderr
+  6  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_test_output/contigs_reports/nucmer_output/contigs_1 \
+     quast_test_output/contigs_reports/nucmer_output/contigs_1.delta > quast_test_output/contigs_reports/contigs_report_contigs_1.stdout \
+     2> quast_test_output/contigs_reports/contigs_report_contigs_1.stderr
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs \
+     quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.delta \
+     > quast_test_output/contigs_reports/contigs_report_nanopore_spades_contigs.stdout \
+     2> quast_test_output/contigs_reports/contigs_report_nanopore_spades_contigs.stderr
+  7  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/delta-filter -i 95.0 -l 0 quast_test_output/contigs_reports/nucmer_output/contigs_2.delta \
+     > quast_test_output/contigs_reports/nucmer_output/contigs_2.fdelta 2> quast_test_output/contigs_reports/contigs_report_contigs_2.stderr
+  7  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummerplot --html --layout -p quast_test_output/contigs_reports/nucmer_output/contigs_2 \
+     quast_test_output/contigs_reports/nucmer_output/contigs_2.delta > quast_test_output/contigs_reports/contigs_report_contigs_2.stdout \
+     2> quast_test_output/contigs_reports/contigs_report_contigs_2.stderr
+NOTICE: 6   MUMmer plot cannot be created.
+
+  6  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_test_output/contigs_reports/nucmer_output/contigs_1.delta \
+     > quast_test_output/contigs_reports/nucmer_output/contigs_1.coords_tmp 2> quast_test_output/contigs_reports/contigs_report_contigs_1.stderr
+NOTICE: 5   MUMmer plot cannot be created.
+
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.delta \
+     > quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.coords_tmp \
+     2> quast_test_output/contigs_reports/contigs_report_nanopore_spades_contigs.stderr
+  6  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_test_output/contigs_reports/nucmer_output/contigs_1.delta \
+     < quast_test_output/contigs_reports/nucmer_output/contigs_1.coords.headless > \
+     quast_test_output/contigs_reports/nucmer_output/contigs_1.all_snps 2> quast_test_output/contigs_reports/contigs_report_contigs_1.stderr
+NOTICE: 7   MUMmer plot cannot be created.
+
+  5  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.delta \
+     < quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.coords.headless \
+     > quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.all_snps \
+     2> quast_test_output/contigs_reports/contigs_report_nanopore_spades_contigs.stderr
+  7  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-coords quast_test_output/contigs_reports/nucmer_output/contigs_2.delta \
+     > quast_test_output/contigs_reports/nucmer_output/contigs_2.coords_tmp 2> quast_test_output/contigs_reports/contigs_report_contigs_2.stderr
+  7  /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/show-snps -S -T -H quast_test_output/contigs_reports/nucmer_output/contigs_2.delta \
+     < quast_test_output/contigs_reports/nucmer_output/contigs_2.coords.headless > \
+     quast_test_output/contigs_reports/nucmer_output/contigs_2.all_snps 2> quast_test_output/contigs_reports/contigs_report_contigs_2.stderr
+  6  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_1.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_1.all_snps.gz
+  5  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/nanopore_spades_contigs.all_snps.gz
+  7  Analysis is finished.
+
+  Gzipping /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.all_snps to reduce disk space usage...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/contigs_2.all_snps.gz
+  Creating total report...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2017-09-22 10:17:51
+Running NA-NGA calculation...
+  1  velvet_low_contigs, Largest alignment = 542, NA50 = None, LA50 = None
+  2  velvet_high_contigs, Largest alignment = 2849, NA50 = None, NGA50 = 2791, LA50 = None, LGA50 = 2
+  3  spades_low_contigs, Largest alignment = 542, NA50 = None, LA50 = None
+  4  spades_high_contigs, Largest alignment = 10000, NA50 = None, NGA50 = 10000, LA50 = None, LGA50 = 1
+  5  nanopore_spades_contigs, Largest alignment = 1521, NA50 = None, LA50 = None
+  6  contigs_1, Largest alignment = 2030, NA50 = 1950, NGA50 = 1610, LA50 = 2, LGA50 = 3
+  7  contigs_2, Largest alignment = 2100, NA50 = 1471, NGA50 = 700, LA50 = 2, LGA50 = 4
+  Drawing cumulative plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/aligned_stats/NGAx_plot.pdf
+Done.
+
+2017-09-22 10:17:51
+Running Genome analyzer...
+  Loaded 10 genes
+  Loaded 2 operons
+  1  velvet_low_contigs
+  2  velvet_high_contigs
+  3  spades_low_contigs
+  4  spades_high_contigs
+  1  Analysis is finished.
+  5  nanopore_spades_contigs
+  3  Analysis is finished.
+  6  contigs_1
+  2  Analysis is finished.
+  7  contigs_2
+  4  Analysis is finished.
+  6  Analysis is finished.
+  5  Analysis is finished.
+  7  Analysis is finished.
+  Drawing genes cumulative plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/genome_stats/genes_cumulative_plot.pdf
+  Drawing genes FRCurve plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/genome_stats/genes_frcurve_plot.pdf
+  Drawing # complete genes histogram...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/genome_stats/complete_genes_histogram.pdf
+  Drawing operons cumulative plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/genome_stats/operons_cumulative_plot.pdf
+  Drawing operons FRCurve plot...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/genome_stats/operons_frcurve_plot.pdf
+  Drawing # complete operons histogram...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/genome_stats/complete_operons_histogram.pdf
+  Drawing Genome fraction, % histogram...
+    saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/genome_stats/genome_fraction_histogram.pdf
+Done.
+
+2017-09-22 10:17:53
+Running GlimmerHMM...
+  1  velvet_low_contigs
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/0.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/0.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/1.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/1.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/2.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/2.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/3.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/3.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/4.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/4.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/5.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/5.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/6.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/6.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/7.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/7.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/8.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/8.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/9.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/9.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/10.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/10.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/11.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/11.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/12.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/12.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/13.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/13.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/14.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/14.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/15.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/15.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/16.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/16.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/17.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/17.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/18.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/18.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpxb6gvK/19.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpxb6gvK/19.gff >> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_low_contigs_glimmer.stderr
+  1    Genes = 15 unique, 15 total
+  1    Predicted genes (GFF): /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/predicted_genes/velvet_low_contigs_glimmer_genes.gff.gz
+  2  velvet_high_contigs
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/0.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/0.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/1.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/1.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/2.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/2.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/3.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/3.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/4.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/4.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/5.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/5.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/6.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/6.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/7.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/7.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/8.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/8.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/9.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/9.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/10.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/10.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/11.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/11.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/12.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/12.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/13.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/13.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/14.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/14.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/15.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/15.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/16.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/16.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/17.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/17.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/18.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/18.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/19.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/19.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/20.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/20.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/21.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/21.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/22.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/22.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/23.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/23.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/24.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/24.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/25.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/25.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/26.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/26.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/27.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/27.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/28.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/28.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/29.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/29.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/30.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/30.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/31.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/31.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/32.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/32.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/33.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/33.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/34.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/34.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/35.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/35.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/36.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/36.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/37.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/37.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/38.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/38.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/39.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/39.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/40.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/40.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/41.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/41.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpGVSf25/42.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpGVSf25/42.gff >> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/velvet_high_contigs_glimmer.stderr
+  2    Genes = 91 unique, 91 total
+  2    Predicted genes (GFF): /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/predicted_genes/velvet_high_contigs_glimmer_genes.gff.gz
+  3  spades_low_contigs
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/0.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/0.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/1.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/1.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/2.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/2.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/3.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/3.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/4.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/4.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/5.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/5.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/6.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/6.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/7.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/7.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/8.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/8.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/9.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/9.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/10.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/10.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/11.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/11.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/12.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/12.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/13.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/13.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/14.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/14.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/15.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/15.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/16.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/16.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/17.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/17.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/18.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/18.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmp_dqcyF/19.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmp_dqcyF/19.gff >> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_low_contigs_glimmer.stderr
+  3    Genes = 15 unique, 15 total
+  3    Predicted genes (GFF): /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/predicted_genes/spades_low_contigs_glimmer_genes.gff.gz
+  4  spades_high_contigs
+  4    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpPZ5Mpe/0.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpPZ5Mpe/0.gff >> quast_test_output/predicted_genes/spades_high_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/spades_high_contigs_glimmer.stderr
+  4    Genes = 77 unique, 77 total
+  4    Predicted genes (GFF): /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/predicted_genes/spades_high_contigs_glimmer_genes.gff.gz
+  5  nanopore_spades_contigs
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/0.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/0.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/1.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/1.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/2.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/2.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/3.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/3.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/4.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/4.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/5.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/5.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/6.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/6.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/7.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/7.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/8.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/8.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/9.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/9.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/10.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/10.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/11.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/11.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/12.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/12.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/13.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/13.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/14.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/14.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/15.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/15.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/16.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/16.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/17.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/17.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/18.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/18.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/19.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/19.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/20.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/20.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/21.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/21.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/22.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/22.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpighbb6/23.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpighbb6/23.gff >> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer.stderr
+  5    Genes = 72 unique, 72 total
+  5    Predicted genes (GFF): /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/predicted_genes/nanopore_spades_contigs_glimmer_genes.gff.gz
+  6  contigs_1
+  6    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpMHfJ5n/0.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpMHfJ5n/0.gff >> quast_test_output/predicted_genes/contigs_1_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/contigs_1_glimmer.stderr
+  6    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpMHfJ5n/1.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpMHfJ5n/1.gff >> quast_test_output/predicted_genes/contigs_1_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/contigs_1_glimmer.stderr
+  6    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpMHfJ5n/2.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpMHfJ5n/2.gff >> quast_test_output/predicted_genes/contigs_1_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/contigs_1_glimmer.stderr
+  6    Genes = 7 unique, 7 total
+  6    Predicted genes (GFF): /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/predicted_genes/contigs_1_glimmer_genes.gff.gz
+  7  contigs_2
+  7    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpLXrm0E/0.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpLXrm0E/0.gff >> quast_test_output/predicted_genes/contigs_2_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/contigs_2_glimmer.stderr
+  7    /usr/local/Cellar/quast/4.5/quast_libs/glimmer/glimmerhmm quast_test_output/predicted_genes/tmp/tmpLXrm0E/1.fasta \
+       -d /usr/local/Cellar/quast/4.5/quast_libs/glimmer/trained/arabidopsis -g -o \
+       quast_test_output/predicted_genes/tmp/tmpLXrm0E/1.gff >> quast_test_output/predicted_genes/contigs_2_glimmer.stderr \
+       2>> quast_test_output/predicted_genes/contigs_2_glimmer.stderr
+  7    Genes = 6 unique, 6 total
+  7    Predicted genes (GFF): /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/predicted_genes/contigs_2_glimmer_genes.gff.gz
+Done.
+
+2017-09-22 10:17:58
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2017-09-22 10:18:02
+RESULTS:
+  Text versions of total report are saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/report.html
+  PDF version (tables and plots) is saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/report.pdf
+  Icarus (contig browser) is saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/icarus.html
+  Log saved to /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast.log
+
+Finished: 2017-09-22 10:18:02
+Elapsed time: 0:00:19.294158
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+
+TEST PASSED!

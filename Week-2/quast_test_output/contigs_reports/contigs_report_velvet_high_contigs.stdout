@@ -1,0 +1,258 @@
+gnuplot 5.2 patchlevel 0
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Parsing coords...
+Loading reference...
+	Loaded [gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides]
+Loading SNPs...
+	Total Regions: 1
+	Total Region Length: 10000
+Analyzing contigs...
+CONTIG: NODE_1_length_3099_cov_443.400787 (3113bp)
+		This contig is unaligned. (3113 bp)
+		Unaligned bases: 3113 total: 3113
+
+CONTIG: NODE_2_length_2733_cov_494.424438 (2747bp)
+		This contig is unaligned. (2747 bp)
+		Unaligned bases: 2747 total: 5860
+
+CONTIG: NODE_3_length_1800_cov_504.811676 (1814bp)
+		This contig is unaligned. (1814 bp)
+		Unaligned bases: 1814 total: 7674
+
+CONTIG: NODE_4_length_3412_cov_430.740326 (3426bp)
+		This contig is unaligned. (3426 bp)
+		Unaligned bases: 3426 total: 11100
+
+CONTIG: NODE_5_length_10476_cov_448.942810 (10490bp)
+		This contig is unaligned. (10490 bp)
+		Unaligned bases: 10490 total: 21590
+
+CONTIG: NODE_6_length_2777_cov_445.687439 (2791bp)
+Best alignment score: 2791.0 (LEN: 2791, IDY: 100.00)
+		One align captures most of this contig: 6304 9094 | 2791 1 | 2791 2791 | 100.0 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_6_length_2777_cov_445.687439
+
+CONTIG: NODE_7_length_2226_cov_420.748871 (2240bp)
+		This contig is unaligned. (2240 bp)
+		Unaligned bases: 2240 total: 23830
+
+CONTIG: NODE_9_length_1044_cov_501.301727 (1058bp)
+		This contig is unaligned. (1058 bp)
+		Unaligned bases: 1058 total: 24888
+
+CONTIG: NODE_11_length_4321_cov_428.541321 (4335bp)
+		This contig is unaligned. (4335 bp)
+		Unaligned bases: 4335 total: 29223
+
+CONTIG: NODE_13_length_3899_cov_410.689423 (3913bp)
+		This contig is unaligned. (3913 bp)
+		Unaligned bases: 3913 total: 33136
+
+CONTIG: NODE_14_length_1085_cov_405.545624 (1099bp)
+		This contig is unaligned. (1099 bp)
+		Unaligned bases: 1099 total: 34235
+
+CONTIG: NODE_15_length_2095_cov_468.796661 (2109bp)
+		This contig is unaligned. (2109 bp)
+		Unaligned bases: 2109 total: 36344
+
+CONTIG: NODE_16_length_2835_cov_431.077942 (2849bp)
+Best alignment score: 2849.0 (LEN: 2849, IDY: 100.00)
+		One align captures most of this contig: 2035 4883 | 2849 1 | 2849 2849 | 100.0 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_16_length_2835_cov_431.077942
+
+CONTIG: NODE_18_length_3762_cov_478.769531 (3776bp)
+		This contig is unaligned. (3776 bp)
+		Unaligned bases: 3776 total: 40120
+
+CONTIG: NODE_20_length_1675_cov_897.291321 (1689bp)
+		This contig is unaligned. (1689 bp)
+		Unaligned bases: 1689 total: 41809
+
+CONTIG: NODE_22_length_629_cov_434.302063 (643bp)
+Best alignment score: 643.0 (LEN: 643, IDY: 100.00)
+		One align captures most of this contig: 5657 6299 | 643 1 | 643 643 | 100.0 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_22_length_629_cov_434.302063
+
+CONTIG: NODE_27_length_1348_cov_512.810059 (1362bp)
+		This contig is unaligned. (1362 bp)
+		Unaligned bases: 1362 total: 43171
+
+CONTIG: NODE_29_length_2561_cov_444.689575 (2575bp)
+		This contig is unaligned. (2575 bp)
+		Unaligned bases: 2575 total: 45746
+
+CONTIG: NODE_30_length_6448_cov_476.299774 (6462bp)
+		This contig is unaligned. (6462 bp)
+		Unaligned bases: 6462 total: 52208
+
+CONTIG: NODE_32_length_2845_cov_471.592621 (2859bp)
+Best alignment score: 918.0 (LEN: 918, IDY: 100.00)
+			The best set is below. Score: 918.0, number of alignments: 1, unaligned bases: 1941
+		This contig is partially unaligned. (Aligned 918 out of 2859 bases)
+		Alignment: 9083 10000 | 2859 1942 | 918 918 | 100.0 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_32_length_2845_cov_471.592621
+		Unaligned bases: 1 to 1941 (1941)
+
+CONTIG: NODE_34_length_1712_cov_479.971375 (1726bp)
+		This contig is unaligned. (1726 bp)
+		Unaligned bases: 1726 total: 53934
+
+CONTIG: NODE_36_length_1413_cov_480.914368 (1427bp)
+		This contig is unaligned. (1427 bp)
+		Unaligned bases: 1427 total: 55361
+
+CONTIG: NODE_37_length_1463_cov_413.792206 (1477bp)
+		This contig is unaligned. (1477 bp)
+		Unaligned bases: 1477 total: 56838
+
+CONTIG: NODE_38_length_644_cov_412.600922 (658bp)
+		This contig is unaligned. (658 bp)
+		Unaligned bases: 658 total: 57496
+
+CONTIG: NODE_40_length_3661_cov_446.038239 (3675bp)
+		This contig is unaligned. (3675 bp)
+		Unaligned bases: 3675 total: 61171
+
+CONTIG: NODE_41_length_4190_cov_405.981873 (4204bp)
+		This contig is unaligned. (4204 bp)
+		Unaligned bases: 4204 total: 65375
+
+CONTIG: NODE_42_length_1689_cov_426.661926 (1703bp)
+		This contig is unaligned. (1703 bp)
+		Unaligned bases: 1703 total: 67078
+
+CONTIG: NODE_43_length_3721_cov_428.316315 (3735bp)
+		This contig is unaligned. (3735 bp)
+		Unaligned bases: 3735 total: 70813
+
+CONTIG: NODE_45_length_626_cov_391.484039 (640bp)
+		This contig is unaligned. (640 bp)
+		Unaligned bases: 640 total: 71453
+
+CONTIG: NODE_46_length_738_cov_411.707306 (752bp)
+		This contig is unaligned. (752 bp)
+		Unaligned bases: 752 total: 72205
+
+CONTIG: NODE_48_length_882_cov_437.357147 (896bp)
+		This contig is unaligned. (896 bp)
+		Unaligned bases: 896 total: 73101
+
+CONTIG: NODE_49_length_1949_cov_482.408417 (1963bp)
+		This contig is unaligned. (1963 bp)
+		Unaligned bases: 1963 total: 75064
+
+CONTIG: NODE_59_length_1171_cov_470.425262 (1185bp)
+		This contig is unaligned. (1185 bp)
+		Unaligned bases: 1185 total: 76249
+
+CONTIG: NODE_63_length_1878_cov_421.577209 (1892bp)
+		This contig is unaligned. (1892 bp)
+		Unaligned bases: 1892 total: 78141
+
+CONTIG: NODE_64_length_569_cov_490.729340 (583bp)
+		This contig is unaligned. (583 bp)
+		Unaligned bases: 583 total: 78724
+
+CONTIG: NODE_66_length_1280_cov_418.347656 (1294bp)
+		This contig is unaligned. (1294 bp)
+		Unaligned bases: 1294 total: 80018
+
+CONTIG: NODE_69_length_1307_cov_1275.052734 (1321bp)
+		This contig is unaligned. (1321 bp)
+		Unaligned bases: 1321 total: 81339
+
+CONTIG: NODE_72_length_589_cov_376.332764 (603bp)
+		This contig is unaligned. (603 bp)
+		Unaligned bases: 603 total: 81942
+
+CONTIG: NODE_75_length_616_cov_482.948059 (630bp)
+		This contig is unaligned. (630 bp)
+		Unaligned bases: 630 total: 82572
+
+CONTIG: NODE_79_length_1558_cov_441.759949 (1572bp)
+Best alignment score: 1572.0 (LEN: 1572, IDY: 100.00)
+		One align captures most of this contig: 476 2047 | 1572 1 | 1572 1572 | 100.0 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_79_length_1558_cov_441.759949
+
+CONTIG: NODE_80_length_691_cov_451.588989 (705bp)
+Best alignment score: 705.0 (LEN: 705, IDY: 100.00)
+		One align captures most of this contig: 4873 5577 | 705 1 | 705 705 | 100.0 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_80_length_691_cov_451.588989
+
+CONTIG: NODE_87_length_643_cov_462.199066 (657bp)
+		This contig is unaligned. (657 bp)
+		Unaligned bases: 657 total: 83229
+
+CONTIG: NODE_116_length_865_cov_421.473999 (879bp)
+		This contig is unaligned. (879 bp)
+		Unaligned bases: 879 total: 84108
+
+Analyzing coverage...
+Writing SNPs into /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.used_snps.gz
+	Reference gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides: 6 total alignments. 1 total regions.
+		Region: 1 to 10000 (10000 bp)
+			START in gap: 1 to 476 (475 bp)
+			Align 1: 476 2047 NODE_79_length_1558_cov_441.759949 1572 1
+				Negative gap (overlap) between this and next alignment: 2047 to 2035 (-12 bp)
+				Next Alignment: 2035 4883 NODE_16_length_2835_cov_431.077942 2849 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2849 to 2836.
+			Align 2: 2048 4883 NODE_16_length_2835_cov_431.077942 2836 1
+				Negative gap (overlap) between this and next alignment: 4883 to 4873 (-10 bp)
+				Next Alignment: 4873 5577 NODE_80_length_691_cov_451.588989 705 1
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 705 to 694.
+			Align 3: 4884 5577 NODE_80_length_691_cov_451.588989 694 1
+				Gap between this and next alignment: 5577 to 5657 (79 bp)
+				Next Alignment: 5657 6299 NODE_22_length_629_cov_434.302063 643 1
+
+			Align 4: 5657 6299 NODE_22_length_629_cov_434.302063 643 1
+				Gap between this and next alignment: 6299 to 6304 (4 bp)
+				Next Alignment: 6304 9094 NODE_6_length_2777_cov_445.687439 2791 1
+
+			Align 5: 6304 9094 NODE_6_length_2777_cov_445.687439 2791 1
+				Negative gap (overlap) between this and next alignment: 9094 to 9083 (-11 bp)
+				Next Alignment: 9083 10000 NODE_32_length_2845_cov_471.592621 2859 1942
+
+			Previous gap was negative, modifying coordinates to ignore overlap
+				Moving contig start from 2859 to 2847.
+			Align 6: 9095 10000 NODE_32_length_2845_cov_471.592621 2847 1942
+			END in current alignment.  Modifying 10000 to 10000.
+
+Analysis is finished!
+Founded SNPs were written into /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_high_contigs.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 37 + 1 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 86049
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 9442
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+
+	Positive Gaps: 3
+		Internal Gaps: 0
+		External Gaps: 3
+		External Gap Total: 558
+		External Gap Average: 186
+	Negative Gaps: 3
+		Internal Overlaps: 0
+		External Overlaps: 3
+		External Overlaps Total: -33
+		External Overlaps Average: -11
+	Contigs with Redundant Alignments: 0 (0)

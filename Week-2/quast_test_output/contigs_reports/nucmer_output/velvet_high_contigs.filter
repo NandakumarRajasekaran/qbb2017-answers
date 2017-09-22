@@ -1,0 +1,20 @@
+/Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast_corrected_input/reference.fasta /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast_corrected_input/velvet_high_contigs.fa
+NUCMER
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_16_length_2835_cov_431.077942 10000 2849
+2035 4883 2849 1 0 0 0
+0
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_22_length_629_cov_434.302063 10000 643
+5657 6299 643 1 0 0 0
+0
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_32_length_2845_cov_471.592621 10000 2859
+9083 10000 2859 1942 0 0 0
+0
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_6_length_2777_cov_445.687439 10000 2791
+6304 9094 2791 1 0 0 0
+0
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_79_length_1558_cov_441.759949 10000 1572
+476 2047 1572 1 0 0 0
+0
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_80_length_691_cov_451.588989 10000 705
+4873 5577 705 1 0 0 0
+0

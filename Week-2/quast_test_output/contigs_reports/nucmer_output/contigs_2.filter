@@ -1,0 +1,12 @@
+/Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast_corrected_input/reference.fasta /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast_corrected_input/contigs_2.fasta
+NUCMER
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides contig1 10000 2100
+1121 3220 1 2100 0 0 0
+0
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides contig2 10000 3360
+3431 4130 1 700 0 0 0
+0
+5881 7070 701 1890 0 0 0
+0
+8120 9590 1890 3360 0 0 0
+0

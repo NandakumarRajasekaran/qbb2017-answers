@@ -1,0 +1,8 @@
+/Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast_corrected_input/reference.fasta /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast_corrected_input/spades_low_contigs.fasta
+NUCMER
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_17_length_542_cov_1.76386 10000 542
+8474 9015 542 1 0 0 0
+0
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_3_length_1084_cov_1.08455 10000 1084
+5158 5601 1 444 0 0 0
+0

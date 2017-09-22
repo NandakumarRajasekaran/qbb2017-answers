@@ -1,0 +1,4 @@
+ID or #		Start	End	Type	Contig
+==================================================
+1		190	5020	complete	NODE_1_length_100000_cov_225.046:190-5020
+2		8238	9893	complete	NODE_1_length_100000_cov_225.046:8238-9893

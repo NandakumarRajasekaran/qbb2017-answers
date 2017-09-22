@@ -1,0 +1,22 @@
+S1	E1	S2	E2	Reference	Contig	IDY	Ambiguous	Best_group
+8474	9015	542	1	gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides	NODE_9_length_528_cov_3.179924	100.0		True
+CONTIG	NODE_9_length_528_cov_3.179924	542	correct
+CONTIG	NODE_10_length_665_cov_4.517293	679	unaligned
+CONTIG	NODE_12_length_984_cov_2.207317	998	unaligned
+CONTIG	NODE_20_length_701_cov_3.174037	715	unaligned
+CONTIG	NODE_23_length_513_cov_2.752437	527	unaligned
+CONTIG	NODE_28_length_1307_cov_3.762816	1321	unaligned
+CONTIG	NODE_37_length_703_cov_8.870555	717	unaligned
+CONTIG	NODE_39_length_600_cov_2.350000	614	unaligned
+CONTIG	NODE_47_length_1044_cov_2.892720	1058	unaligned
+CONTIG	NODE_49_length_508_cov_2.061024	522	unaligned
+CONTIG	NODE_52_length_519_cov_2.591522	533	unaligned
+CONTIG	NODE_55_length_633_cov_2.565561	647	unaligned
+CONTIG	NODE_59_length_517_cov_2.141199	531	unaligned
+CONTIG	NODE_79_length_520_cov_3.076923	534	unaligned
+CONTIG	NODE_81_length_507_cov_2.897436	521	unaligned
+CONTIG	NODE_102_length_756_cov_2.567460	770	unaligned
+CONTIG	NODE_137_length_712_cov_2.518258	726	unaligned
+CONTIG	NODE_157_length_575_cov_3.881739	589	unaligned
+CONTIG	NODE_177_length_722_cov_2.238227	736	unaligned
+CONTIG	NODE_207_length_555_cov_2.551351	569	unaligned

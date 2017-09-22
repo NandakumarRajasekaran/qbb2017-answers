@@ -1,0 +1,11 @@
+Writing filtered delta file /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.filter
+Reading delta file /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.delta
+Writing plot files /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.fplot, /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.rplot
+Writing gnuplot script /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.gp
+Rendering plot /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.html
+ted_input/velvet_low_contigs.fa"
+# against subject-file "/Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.ntref"
+# COMPLETETIME /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummer /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.ntref 0.00
+# SPACE /usr/local/Cellar/quast/4.5/quast_libs/MUMmer/mummer /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/velvet_low_contigs.ntref 0.02
+4: FINISHING DATA
+WARNING: there was a problem deleting the temporary output files

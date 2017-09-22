@@ -1,0 +1,144 @@
+gnuplot 5.2 patchlevel 0
+Aligning contigs to reference...
+	Aligning contigs to the reference
+Parsing coords...
+Loading reference...
+	Loaded [gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides]
+Loading SNPs...
+	Total Regions: 1
+	Total Region Length: 10000
+Analyzing contigs...
+CONTIG: NODE_1_length_1737_cov_1.1409 (1737bp)
+		This contig is unaligned. (1737 bp)
+		Unaligned bases: 1737 total: 1737
+
+CONTIG: NODE_2_length_1409_cov_1.86411 (1409bp)
+		This contig is unaligned. (1409 bp)
+		Unaligned bases: 1409 total: 3146
+
+CONTIG: NODE_3_length_1084_cov_1.08455 (1084bp)
+Best alignment score: 444.0 (LEN: 444, IDY: 100.00)
+			The best set is below. Score: 444.0, number of alignments: 1, unaligned bases: 640
+		This contig is partially unaligned. (Aligned 444 out of 1084 bases)
+		Alignment: 5158 5601 | 1 444 | 444 444 | 100.0 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_3_length_1084_cov_1.08455
+		Unaligned bases: 445 to 1084 (640)
+
+CONTIG: NODE_4_length_1083_cov_1.4572 (1083bp)
+		This contig is unaligned. (1083 bp)
+		Unaligned bases: 1083 total: 4229
+
+CONTIG: NODE_5_length_956_cov_1.03441 (956bp)
+		This contig is unaligned. (956 bp)
+		Unaligned bases: 956 total: 5185
+
+CONTIG: NODE_6_length_842_cov_3.84117 (842bp)
+		This contig is unaligned. (842 bp)
+		Unaligned bases: 842 total: 6027
+
+CONTIG: NODE_7_length_793_cov_1.14905 (793bp)
+		This contig is unaligned. (793 bp)
+		Unaligned bases: 793 total: 6820
+
+CONTIG: NODE_8_length_718_cov_2.30468 (718bp)
+		This contig is unaligned. (718 bp)
+		Unaligned bases: 718 total: 7538
+
+CONTIG: NODE_9_length_715_cov_1.60303 (715bp)
+		This contig is unaligned. (715 bp)
+		Unaligned bases: 715 total: 8253
+
+CONTIG: NODE_10_length_712_cov_1.17199 (712bp)
+		This contig is unaligned. (712 bp)
+		Unaligned bases: 712 total: 8965
+
+CONTIG: NODE_11_length_706_cov_0.946237 (706bp)
+		This contig is unaligned. (706 bp)
+		Unaligned bases: 706 total: 9671
+
+CONTIG: NODE_12_length_689_cov_1.50315 (689bp)
+		This contig is unaligned. (689 bp)
+		Unaligned bases: 689 total: 10360
+
+CONTIG: NODE_13_length_635_cov_2.01897 (635bp)
+		This contig is unaligned. (635 bp)
+		Unaligned bases: 635 total: 10995
+
+CONTIG: NODE_14_length_587_cov_1.38534 (587bp)
+		This contig is unaligned. (587 bp)
+		Unaligned bases: 587 total: 11582
+
+CONTIG: NODE_15_length_584_cov_1.4896 (584bp)
+		This contig is unaligned. (584 bp)
+		Unaligned bases: 584 total: 12166
+
+CONTIG: NODE_16_length_546_cov_1.42974 (546bp)
+		This contig is unaligned. (546 bp)
+		Unaligned bases: 546 total: 12712
+
+CONTIG: NODE_17_length_542_cov_1.76386 (542bp)
+Best alignment score: 542.0 (LEN: 542, IDY: 100.00)
+		One align captures most of this contig: 8474 9015 | 542 1 | 542 542 | 100.0 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_17_length_542_cov_1.76386
+
+CONTIG: NODE_18_length_532_cov_1.09853 (532bp)
+		This contig is unaligned. (532 bp)
+		Unaligned bases: 532 total: 13244
+
+CONTIG: NODE_19_length_531_cov_1.15546 (531bp)
+		This contig is unaligned. (531 bp)
+		Unaligned bases: 531 total: 13775
+
+CONTIG: NODE_20_length_521_cov_1.56867 (521bp)
+		This contig is unaligned. (521 bp)
+		Unaligned bases: 521 total: 14296
+
+Analyzing coverage...
+Writing SNPs into /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.used_snps.gz
+	Reference gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides: 2 total alignments. 1 total regions.
+		Region: 1 to 10000 (10000 bp)
+			START in gap: 1 to 5158 (5157 bp)
+			Align 1: 5158 5601 NODE_3_length_1084_cov_1.08455 1 444
+				Gap between this and next alignment: 5601 to 8474 (2872 bp)
+				Next Alignment: 8474 9015 NODE_17_length_542_cov_1.76386 542 1
+
+			Align 2: 8474 9015 NODE_17_length_542_cov_1.76386 542 1
+			END in gap: 9015 to 10000 (985 bp).
+
+Analysis is finished!
+Founded SNPs were written into /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/contigs_reports/nucmer_output/spades_low_contigs.used_snps.gz
+
+Results:
+	Local Misassemblies: 0
+	Misassemblies: 0
+		Relocations: 0
+		Translocations: 0
+		Inversions: 0
+	Misassembled Contigs: 0
+	Misassembled Contig Bases: 0
+	Misassemblies Inter-Contig Overlap: 0
+Uncovered Regions: 0 (0)
+Unaligned Contigs: 18 + 1 part
+Half Unaligned Contigs with Misassemblies: 0
+Unaligned Contig Bases: 14936
+
+Ambiguously Mapped Contigs: 0
+Total Bases in Ambiguously Mapped Contigs: 0
+Extra Bases in Ambiguously Mapped Contigs: 0
+Note that --allow-ambiguity option was set to "one" and only first alignment per each of these contigs was used.
+
+	Covered Bases: 986
+
+	SNPs: 0
+	Insertions: 0
+	Deletions: 0
+
+	Positive Gaps: 3
+		Internal Gaps: 0
+		External Gaps: 3
+		External Gap Total: 9014
+		External Gap Average: 3005
+	Negative Gaps: 0
+		Internal Overlaps: 0
+		External Overlaps: 0
+		External Overlaps Total: 0
+		External Overlaps Average: 0
+	Contigs with Redundant Alignments: 0 (0)

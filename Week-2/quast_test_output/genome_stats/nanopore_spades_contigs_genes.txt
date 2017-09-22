@@ -1,0 +1,8 @@
+ID or #		Start	End	Type	Contig
+==================================================
+986		337	2799	partial	NODE_21_length_703_cov_0.817901:511-1,NODE_18_length_1387_cov_0.257508:1387-1006
+987		2801	3733	complete	NODE_18_length_1387_cov_0.257508:1004-72
+1250		190	255	complete	NODE_21_length_703_cov_0.817901:658-593
+1463		9306	9893	complete	NODE_2_length_6636_cov_0.532898:5804-5217
+1507		8238	9191	partial	NODE_2_length_6636_cov_0.532898:6636-5919
+3974		5234	5530	complete	NODE_20_length_1084_cov_1.08455:77-373

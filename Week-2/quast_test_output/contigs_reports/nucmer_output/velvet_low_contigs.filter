@@ -1,0 +1,5 @@
+/Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast_corrected_input/reference.fasta /Users/cmdb/qbb2017-answers/Week-2/quast_test_output/quast_corrected_input/velvet_low_contigs.fa
+NUCMER
+>gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_9_length_528_cov_3.179924 10000 542
+8474 9015 542 1 0 0 0
+0

@@ -1,0 +1,6 @@
+    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  | [TAGS]
+=====================================================================================
+8474 10000 | 6636 5116 | 1527 1521 | 99.61 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_2_length_6636_cov_0.532898
+2418 3805 | 1387 1 | 1388 1387 | 99.78 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_18_length_1387_cov_0.257508
+5158 5601 | 1 444 | 444 444 | 100.0 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_20_length_1084_cov_1.08455
+145 851 | 703 1 | 707 703 | 99.15 | gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides NODE_21_length_703_cov_0.817901

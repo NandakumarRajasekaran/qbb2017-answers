@@ -1,0 +1,8 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                       velvet_low_contigs  velvet_high_contigs  spades_low_contigs  spades_high_contigs  nanopore_spades_contigs  contigs_1  contigs_2
+# fully unaligned contigs      19                  37                   18                  0                    20                       0          0        
+Fully unaligned length         13307               84108                14296               0                    51173                    0          0        
+# partially unaligned contigs  0                   1                    1                   1                    2                        0          0        
+Partially unaligned length     0                   1941                 640                 90000                5755                     0          0        
+# N's                          0                   0                    0                   0                    0                        0          0        

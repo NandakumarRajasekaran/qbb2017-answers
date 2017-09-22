@@ -1,0 +1,10 @@
+ID or #		Start	End	Type	Contig
+==================================================
+9		5683	6459	partial	NODE_22_length_629_cov_434.302063:617-1,NODE_6_length_2777_cov_445.687439:2791-2636
+986		337	2799	partial	NODE_79_length_1558_cov_441.759949:1572-1,NODE_16_length_2835_cov_431.077942:2849-2085
+987		2801	3733	complete	NODE_16_length_2835_cov_431.077942:2083-1151
+988		3734	5020	partial	NODE_16_length_2835_cov_431.077942:1150-1,NODE_80_length_691_cov_451.588989:705-558
+1463		9306	9893	complete	NODE_32_length_2845_cov_471.592621:2636-2049
+1506		6529	7959	complete	NODE_6_length_2777_cov_445.687439:2566-1136
+1507		8238	9191	partial	NODE_6_length_2777_cov_445.687439:857-1,NODE_32_length_2845_cov_471.592621:2859-2751
+3974		5234	5530	complete	NODE_80_length_691_cov_451.588989:344-48

@@ -1,0 +1,22 @@
+genes loaded: 10
+operons loaded: 2
+reference chromosomes:
+	gi_49175990_ref_NC_000913.2__Escherichia_coli_str._K-12_substr._MG1655__complete_genome__cropped_to_first_10000_nucleotides (total length: 10000 bp, maximal covered length: 10000 bp)
+
+total genome size: 10000
+
+gap min size: 50
+partial gene/operon min size: 100
+
+
+
+assembly                 | genome    | duplication | gaps      | genes     | partial   | operons   | partial   |
+                         | fraction  | ratio       | number    |           | genes     |           | operons   |
+========================================================================================================================
+velvet_low_contigs       | 5.42000%  | 1.00000     | 2         | 0         | 1         | 0         | 1         |
+velvet_high_contigs      | 94.42000% | 1.00381     | 2         | 4         | 4         | 0         | 2         |
+spades_low_contigs       | 9.86000%  | 1.00000     | 3         | 1         | 1         | 0         | 1         |
+spades_high_contigs      | 100.00000%| 1.00000     | 0         | 9         | 0         | 2         | 0         |
+nanopore_spades_contigs  | 40.66000% | 0.99729     | 4         | 4         | 2         | 0         | 2         |
+contigs_1                | 67.10000% | 1.00000     | 3         | 5         | 4         | 1         | 1         |
+contigs_2                | 54.60000% | 1.00000     | 5         | 1         | 6         | 0         | 2         |

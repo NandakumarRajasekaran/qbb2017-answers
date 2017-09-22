@@ -1,0 +1,4 @@
+ID or #		Start	End	Type	Contig
+==================================================
+1507		8238	9191	partial	NODE_17_length_542_cov_1.76386:542-1
+3974		5234	5530	complete	NODE_3_length_1084_cov_1.08455:77-373

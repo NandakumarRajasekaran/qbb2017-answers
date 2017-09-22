@@ -1,0 +1,14 @@
+Assembly	velvet_low_contigs	velvet_high_contigs	spades_low_contigs	spades_high_contigs	nanopore_spades_contigs	contigs_1	contigs_2
+# misassemblies	0	0	0	0	0	1	2
+    # relocations	0	0	0	0	0	1	2
+    # translocations	0	0	0	0	0	0	0
+    # inversions	0	0	0	0	0	0	0
+# misassembled contigs	0	0	0	0	0	1	1
+Misassembled contigs length	0	0	0	0	0	3980	3360
+# local misassemblies	0	0	0	0	0	0	0
+# unaligned mis. contigs	0	0	0	0	0	0	0
+# mismatches	0	0	0	0	0	0	0
+# indels	0	0	0	0	12	0	0
+    # indels (<= 5 bp)	0	0	0	0	12	0	0
+    # indels (> 5 bp)	0	0	0	0	0	0	0
+Indels length	0	0	0	0	15	0	0

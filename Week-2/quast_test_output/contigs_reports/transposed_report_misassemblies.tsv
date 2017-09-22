@@ -1,0 +1,8 @@
+Assembly	# misassemblies	    # relocations	    # translocations	    # inversions	# misassembled contigs	Misassembled contigs length	# local misassemblies	# unaligned mis. contigs	# mismatches	# indels	    # indels (<= 5 bp)	    # indels (> 5 bp)	Indels length
+velvet_low_contigs	0	0	0	0	0	0	0	0	0	0	0	0	0
+velvet_high_contigs	0	0	0	0	0	0	0	0	0	0	0	0	0
+spades_low_contigs	0	0	0	0	0	0	0	0	0	0	0	0	0
+spades_high_contigs	0	0	0	0	0	0	0	0	0	0	0	0	0
+nanopore_spades_contigs	0	0	0	0	0	0	0	0	0	12	12	0	15
+contigs_1	1	1	0	0	1	3980	0	0	0	0	0	0	0
+contigs_2	2	2	0	0	1	3360	0	0	0	0	0	0	0

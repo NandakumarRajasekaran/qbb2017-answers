@@ -1,0 +1,4 @@
+ID or #		Start	End	Type	Contig
+==================================================
+1		190	5020	partial	NODE_21_length_703_cov_0.817901:658-1,NODE_18_length_1387_cov_0.257508:1387-1
+2		8238	9893	partial	NODE_2_length_6636_cov_0.532898:6636-5217
