@@ -22,6 +22,13 @@ for i in range (1,phenNo+1):
     plt.figure()
     a,b=df.shape
     plt.scatter(range(1,a+1),-np.log10(Pval))
+    
+    
+    Pvalred=np.array(Pval)
+    Pvalred[Pvalred>0.00001]=None
+    print Pvalred
+    plt.scatter(range(1,a+1),-np.log10(Pvalred),c='r')
+    
     plt.xlabel('Variant Number')
     plt.ylabel(r'$-log_{10} (P)$')
     plt.savefig(oname+'.'+str(i)+'.manhat.png')
