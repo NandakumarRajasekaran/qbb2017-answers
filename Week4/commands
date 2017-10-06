@@ -1,0 +1,17 @@
+Plink PCA vectors:
+
+plink2 --vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr --mind --pca 2 
+ ./pca.py  plink.eigenvec 
+
+Histogram : Use Week3 script
+./vcfhistogram.py  BYxRM_segs_saccer3.bam.simplified.vcf 
+
+Change delimiter in phenotype.txt:
+
+cat BYxRM_PhenoData.txt | sed   "s/_/    /1" > PhenNew.txt
+
+Plink association:
+plink2 --vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr  --assoc --no-sex --linear --pheno  PhenNew.txt --all-pheno --out quant1 
+
+GWAS plot:
+./gwasplot.py quant1 plot 46
