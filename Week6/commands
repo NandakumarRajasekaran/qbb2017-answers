@@ -1,0 +1,37 @@
+#Build Index
+bowtie2-build chr19.fa  ./mouse
+
+#Alignment and sorting
+
+bowtie2 -q -x mouse -U CTCF_ER4.fastq -S CTCF_ER4.sam
+bowtie2 -q -x mouse -U CTCF_G1E.fastq -S CTCF_G1E.sam
+bowtie2 -q -x mouse -U input_G1E.fastq -S input_G1E.sam
+bowtie2 -q -x mouse -U input_ER4.fastq -S input_ER4.sam
+
+samtools sort CTCF_ER4.sam  > CTCF_ER4.bam
+samtools sort input_ER4.sam  > input_ER4.bam
+samtools sort CTCF_G1E.sam  > CTCF_G1E.bam
+samtools sort input_G1E.sam  > input_G1E.bam
+samtools index CTCF_ER4.bam
+samtools index CTCF_G1E.bam
+samtools index input_G1E.bam
+samtools index input_ER4.bam
+
+#MACS2
+macs2 callpeak -t CTCF_G1E.bam -c input_G1E.bam -f BAM -g 1.0e+8 --outdir G1E -n G1E  ##(we have only 1 chromosome so g~1e+8)
+macs2 callpeak -t CTCF_ER4.bam -c input_ER4.bam -f BAM -g 1.0e+8 --outdir ER4 -n ER4
+
+#Lost/Gained Peaks
+bedtools intersect -v -b G1E/G1E_peaks.narrowPeak  -a ER4/ER4_peaks.narrowPeak  > ER4vsG1E
+bedtools intersect -v -a G1E/G1E_peaks.narrowPeak  -b ER4/ER4_peaks.narrowPeak  > G1EvsER4
+
+#Top peaks
+sort -nr -k 9 G1E/G1E_peaks.narrowPeak | head -100 > top100G1E.bed
+sort -nr -k 9 ER4/ER4_peaks.narrowPeak| head -100 > top100ER4.bed
+
+#Fasta conversion
+bedtools getfasta -fi chr19.fa -bed top100G1E.bed  > top100G1E.fa
+bedtools getfasta -fi chr19.fa -bed top100ER4.bed  > top100ER4.fa
+
+#MEME-CHIP
+/usr/local/opt/meme/bin/meme-chip -meme-maxw 20 -o ER4motif -index-name ER4motif -db motif_databases/JASPAR/JASPAR_CORE_2016_vertebrates.meme  -norand  top100ER4.fa 
