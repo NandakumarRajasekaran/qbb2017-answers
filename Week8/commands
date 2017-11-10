@@ -1,0 +1,9 @@
+hifive 5c-complete express -C Nora_ESC_male_E14.counts -P normalize Nora_Primers.bed
+
+hifive 5c-heatmap -d enrichment -i Nora.png -a  compact -b 0 -F npz  normalize.fcp  Nora_enrichment.out
+hifive 5c-heatmap -d fragment -i Nora.png -a compact -b 0 -F npz normalize.fcp  Nora.out
+
+cat ctcf_peaks.tsv | grep "^chrX" > CTCF_Xonly.bed
+
+./CTCF.py
+
