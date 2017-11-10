@@ -1,0 +1,34 @@
+[[ 2.50146437  0.83844072  1.78114843  1.33850908  2.25890541  0.1125624 ]
+ [ 4.43815804  1.33027112  0.69708633  0.          0.          0.29746607]
+ [ 3.78474569  4.44472122  4.13339853  0.          0.          0.92034757]
+ [ 1.90424681  0.87275326  1.84633315  2.61600876  0.          4.86600399]
+ [ 2.60163069  2.09249234  1.97116554  0.          0.          0.        ]
+ [ 0.36933923  0.93098003  1.68051839  2.41271114  0.          0.70985425]
+ [ 0.          1.60090828  0.17280361  0.54771304  1.50421131  0.70201766]
+ [ 1.89507878  0.4833447   1.36856663  0.          0.21942706  0.09030174]
+ [ 1.39437079  0.          1.28382075  3.26003027  4.32641745  4.17055082]]
+CTCF forward primers are
+[18, 33, 49, 69, 143, 179, 198, 236, 379]
+They strongly interact with corresponding reverse primers:
+[8, 8, 17, 521, 8, 489, 17, 8, 499]
+
+
+
+CTCF reverse primers are
+[8, 17, 37, 489, 499, 521]
+They strongly interact with corresponding forward primers:
+[33, 49, 49, 379, 379, 69]
+
+
+
+CTCF forward primers are
+['5C_938_XIC-3_FOR_0047', '5C_938_XIC-3_FOR_0087', '5C_938_XIC-3_FOR_0122', '5C_938_XIC-3_FOR_0168', '5C_938_XIC-3_FOR_0496', '5C_938_XIC-3_FOR_0587', '5C_938_XIC-3_FOR_0629', '5C_938_XIC-3_FOR_0726', '5C_938_XIC-3_FOR_1160']
+They strongly interact with corresponding reverse primers:
+['5C_938_XIC-3_REV_0021', '5C_938_XIC-3_REV_0021', '5C_938_XIC-3_REV_0040', '5C_938_XIC-3_REV_1521', '5C_938_XIC-3_REV_0021', '5C_938_XIC-3_REV_1441', '5C_938_XIC-3_REV_0040', '5C_938_XIC-3_REV_0021', '5C_938_XIC-3_REV_1468']
+
+
+
+CTCF reverse primers are
+['5C_938_XIC-3_REV_0021', '5C_938_XIC-3_REV_0040', '5C_938_XIC-3_REV_0088', '5C_938_XIC-3_REV_1441', '5C_938_XIC-3_REV_1468', '5C_938_XIC-3_REV_1521']
+They strongly interact with corresponding forward primers:
+['5C_938_XIC-3_FOR_0087', '5C_938_XIC-3_FOR_0122', '5C_938_XIC-3_FOR_0122', '5C_938_XIC-3_FOR_1160', '5C_938_XIC-3_FOR_1160', '5C_938_XIC-3_FOR_0168']
