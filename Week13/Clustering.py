@@ -20,7 +20,18 @@ X=df.values
 X=X[leaves_rows,:][:,leaves_cols]
 plt.figure()
 #labels=df.rows
-labels=leaves_cols
+#labels=leaves_cols
+stagenames=list(df)
+print stagenames
+labels=[]
+for i in leaves_cols:
+    labels.append(stagenames[i])
+
+stagenames1=df.index
+print stagenames1
+labels1=[]
+for i in leaves_rows:
+    labels1.append(stagenames1[i])
 #labels=labels[leaves_cols]
 m = np.max(np.abs(X))
 mini=np.min(np.abs(X))
@@ -41,18 +52,20 @@ plt.xticks(            # Edit the xticks being shown
 	)
 plt.yticks(            # Edit the xticks being shown
 	range(X.shape[0]), # ... use the values centered on each column of pixels
-	leaves_rows,            # ... which corresponds to the indices of our labels
+	labels1,            # ... which corresponds to the indices of our labels
 	rotation=50,       # ... and rotate the labels 50 degrees counter-clockwise
 	)
 #plt.yticks([])         # Edit the ticks on the y-axis to show....NOTHING
 plt.colorbar()         # Add a bar to the right side of the plot which shows the scale correlating the colors to the pixel values
 #clst.dendrogram(linkage_cols,no_plot=False)
+plt.tight_layout()
 plt.savefig("clean_heatmap.png") # Save the image
+plt.tight_layout()
 plt.close() # Close the canvas 
 
 plt.figure()
 clst.dendrogram(linkage_cols)
-plt.savefig('dendro.png')
+plt.savefig('dendro.png',box='tight')
 
 plt.close()
 
